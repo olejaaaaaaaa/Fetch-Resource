@@ -1,0 +1,13 @@
+[package]
+name = "fech-resource"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+actix-web = "4.0"
+actix = "*"
+tokio = { version = "*", features = ["full"] }
+serde = { version = "*", features = ["derive"] }
+serde_json = "*"
+futures = "*"
+reqwest = "*"
